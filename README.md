@@ -7,12 +7,12 @@
 #### Use Docker
 Build the docker image
 ```
-docker build -< Dockerfile -t multi_hop_kg:v1.0
+docker build -< Dockerfile -t KGTD:v1.0
 ```
 
 Spin up a docker container and run experiments inside it.
 ```
-nvidia-docker run -v `pwd`:/workspace/MultiHopKG -it multi_hop_kg:v1.0
+nvidia-docker run -v `pwd`:/workspace/KGTD -it KGTD:v1.0
 ```
 *The rest of the readme assumes that one works interactively inside a container. If you prefer to run experiments outside a container, please change the commands accordingly.*
 
